@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-  resources :home
+  
   # You can have the root of your site routed with "root"
   root 'home#home'  
   get 'home/about'
@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'home/fashion'
   get 'home/mechanical'
   get 'home/outsource'
+  resources :home
 
 
   # Example of regular route:
