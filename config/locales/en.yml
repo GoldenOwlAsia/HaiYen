@@ -1,0 +1,68 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  home: "Home"
+  about: 'About Us'
+  fashion: 'Hign Fashion'
+  mechanical: 'Mechanical'
+  outsourcing: 'Outsourcing'
+  contact: 'Contact'
+  seemore: 'See More'
+  process: 'Professional Processing'
+  mechanicalinstall: 'Mechanical Installation'
+  whychooseus: 'Why choose us'
+  staffworking: 'Staff working professionals'
+  newideas: 'Always creativity to devise new ideas'
+  customer: 'Customer oriented'
+  partner: 'Partner'
+  blog: 'Blog'
+  about01: 'May outsourcing is one of the issues is weak and lacking in Hanoi market in particular and the nation in general.'
+  about02: 'In order to accelerate and shorten manufacturing shirts. We get set sew shirt outsourcing to provide wholesale and retail market has grown up and form processing garment factory shirt types to meet the majority of customers: Retail customers, small sewing workshop, The company put design.'
+  about03: 'Formed from the development of the market. The company apparel mechanical and specialized training received sewing Yen congcac office type shirt, short-sleeved shirts, long sleeved shirts and shirt style types as requested by customers.'
+  about04: 'Currently, the cost of processing the shirt depends on:'
+  about05: 'The number of garment processing'
+  about06: 'Material quality fabric and accessories such as buttons, zippers, pockets fake, just, and related accessories etc ..'
+  about07: 'Quality Sewing and technical requirements, standard sewing foreign or domestic …'
+  about08: 'Shirt Designs'
+  about09: 'Because the price of the shirt sewing depends numerous factors, should not generally quote is, customers want the exact quote, it is best to send live model, and request the required details machining , to sewing workshop we prepare customer quotes.'
+  about10: 'Price garment processing shirt just cut, sew board, in Arabic: may follow national standards: 40k (may increase or decrease up to a few thousand, depending on the actual model)'
+  about11: 'Price garment processing shirt just cutting, sewing, ironing, to Arab foreign standards: 60k (maybe up and down up and down depending on the actual model)'
+  about12: 'Unlike some other factories, our garment factory has always put quality first, ensuring we will do best for customer satisfaction:'
+  about13: 'We are not only competitively priced garment sewing, but also extreme and meticulous quality'
+  about14: 'Taking little by sewing'
+  about15: 'Advice for visitors and thoroughly detailed quotation to the customer stages grasp and understand the best price'
+  about16: 'Out for guests to browse sample before sewing series'
+  about17: 'Absolutely unfortunately shoddy goods'
+  about18: 'Experience working for many years for the May 10 skilled and well-known brands such as Zara, H & M, Armani, Polo, …'
+  about19: 'Contact: 401 707 0903 - Mr Que.'
+  fashion01: 'MEN’S SHIRTS'
+  fashion02: 'CLOTHING SOUTH EUROPE'
+  fashion03: 'VEST'
+  mechanical01: 'COOLING SYSTEM'
+  mechanical02: 'TEXTILE MACHINERY INDUSTRY'
+  mechanical03: 'CTABLE TYPES OF INDUSTRIAL GROUPS'
+  mechanical04: 'TEAM TYPES CONVEYOR'
+  mechanical05: 'TEAM TYPES CANOPY'
+  mechanical06: 'GARMENT INDUSTRY GROUP SEATING'
+  mechanical07: 'GROUP RATES FOR INDUSTRIAL GOODS'
+  mechanical08: 'INDUSTRIAL GROUP PALLETS'
+  mechanical09: 'CABINET STORAGE CABINET GROUP PROFILE SHOES'

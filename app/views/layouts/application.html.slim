@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title - HYG - Thời trang, Gia công cao cấp
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    link rel="shortcut icon" type="image/x-icon" href="http://megaicons.net/static/img/icons_sizes/367/1039/256/letter-g-black-icon.png"/
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => false
+    = csrf_meta_tags
+
+  body data-spy="scroll"
+      
+        .header-section.container-fluid
+          = render "layouts/header"
+        .body-content
+          = yield
+        .footer-section.container-fluid
+          = render "layouts/footer"

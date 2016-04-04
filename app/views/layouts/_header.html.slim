@@ -1,0 +1,41 @@
+.logo
+  h1.title-cpd Hai Yen
+.navbar
+  = image_tag 'icon-bar.png'
+ul.menu-content
+  li class=("#{'active' if current_page?(root_path)}")
+    = link_to root_path do
+      = t :home
+    end
+  li class=("#{'active' if current_page?(home_about_path)}")
+    = link_to home_about_path do
+      = t :about
+    end
+  li class=("#{'active' if current_page?(home_fashion_path)}")
+    = link_to home_fashion_path do
+      = t :fashion
+    end
+  li class=("#{'active' if current_page?(home_mechanical_path)}")
+    = link_to home_mechanical_path do
+      = t :mechanical
+    end
+  li class=("#{'active' if current_page?(home_outsource_path)}")
+    = link_to home_outsource_path do
+      = t :outsourcing
+    end
+  li class=("#{'active' if current_page?(home_contact_path)}")
+    = link_to home_contact_path do
+      = t :contact
+    end
+  li.locale
+    = link_to :locale=>'vi' do
+      button 
+        = image_tag 'icon-vie.png'
+    end
+    = link_to :locale=>'en' do
+      button 
+        = image_tag 'icon-en.png'
+    end
+
+
+

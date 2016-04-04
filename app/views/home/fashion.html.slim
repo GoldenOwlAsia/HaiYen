@@ -1,0 +1,26 @@
+.sub-body.introduce-section
+	ul.link-title
+		= link_to root_path do
+			li 
+				= t :home
+		end
+		li 
+			| /
+		li 
+			= t :fashion
+	.introduce-content.container-fluid
+		h3 
+			= t :fashion
+		= image_tag 'fashion-bg.jpg'
+		.image-element
+			= image_tag 'fashion1.jpg'
+			p 
+				= t :fashion01
+		.image-element
+			= image_tag 'fashion2.jpg'
+			p 
+				= t :fashion02
+		.image-element
+			= image_tag 'fashion3.jpg'
+			p 
+				= t :fashion03

@@ -1,0 +1,41 @@
+.footer-section
+  .footer-content
+    .footer-element.left
+      p 
+        i.fa.fa-map-marker
+        | Toong Số 8 Tràng Thi, Quận Hoàn Kiếm, Hà Nội
+      p 
+        i.fa.fa-phone
+        | nguyenthoque@hyg.com.vn
+      p @ 2016 Copyright - Hai Yen Pte Ld
+    ul.footer-element.right
+      li
+        = link_to root_path do 
+          p 
+            = t :home
+        end
+      li
+        = link_to home_about_path do 
+          p 
+           = t :about
+        end
+      li
+        = link_to home_fashion_path do 
+          p 
+            = t :fashion
+        end
+      li
+        = link_to home_mechanical_path do 
+          p 
+            = t :mechanical
+        end
+      li
+        = link_to home_outsource_path do 
+          p 
+            = t :outsourcing
+        end
+      li
+        = link_to home_contact_path do 
+          p 
+            = t :contact
+        end

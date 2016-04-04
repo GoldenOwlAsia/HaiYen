@@ -1,0 +1,68 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+vi:
+  home: "Trang Chủ"
+  about: 'Giới thiệu'
+  fashion: 'Thời trang cao cấp'
+  mechanical: 'Lắp đặt cơ khí'
+  outsourcing: 'Gia công'
+  contact: 'Liên hệ'
+  seemore: 'Xem chi tiết'
+  process: 'Gia công chuyên nghiệp'
+  mechanicalinstall: 'Lắp đặt cơ khí'
+  whychooseus: 'Vì sao bạn nên chọn chúng tôi?'
+  staffworking: 'Đội ngũ nhân viên làm việc chuyên nghiệp'
+  newideas: 'Luôn sáng tạo để đưa ra những ý tưởng mới'
+  customer: 'Hướng tới khách hàng'
+  partner: 'Đối tác'
+  blog: 'Tin tức'
+  about01: 'May gia công là một trong những vấn đề đang còn yếu và thiếu trên thị trường Hà Nội nói riêng và trên toàn quốc nói chung.'
+  about02: 'Nhằm đẩy nhanh tiến độ và rút ngắn thời gian sản xuất áo sơ mi . Chúng toi nhận đặt may gia công áo sơ mi để cung cấp sỉ & lẻ cho thị trường nên đã phát triển và hình thành xưởng may gia công áo sơ mi các loại nhằm đáp ứng đa số khách hàng : Khách lẻ , Xưởng may nhỏ , Công ty đưa mẫu thiết kế .'
+  about03: 'Được hình thành từ sự phát triển của thị trường . Công ty cơ khí may mặc và đào tạo Hải Yến chuyên nhận may gia côngcác loại áo sơ mi công sở, áo sơ mi ngắn tay , sơ mi dài tay và sơ mi kiểu các loại theo yêu cầu của khách hàng.'
+  about04: 'Hiện tại, giá gia công áo sơ mi phụ thuộc vào :'
+  about05: 'Số lượng may gia công'
+  about06: 'Chất liệu vải và chất lượng phụ liệu như nút, dây kéo, túi giả, chỉ, và phụ kiện liên quan vv..'
+  about07: 'Chất lượng may và yêu cầu kĩ thuật, may theo tiêu chuẩn nước ngoài hay trong nước…'
+  about08: 'Kiểu dáng áo sơ mi'
+  about09: 'Chính vì giá may gia công áo sơ mi phụ thuộc rất nhiều yếu tố, nên không phải báo giá chung chung là được, khách hàng muốn báo giá chính xác, tốt nhất nên gửi mẫu thật, và yêu cầu các chi tiết cần gia công, để xưởng may chúng tôi báo giá chuẩn cho khách.'
+  about10: 'Giá may gia công áo sơ mi chỉ cắt, may ủi, rập: may theo tiêu chuẩn trong nước: 40k ( có thể tăng giảm lên xuống vài ngàn, phụ thuộc vào mẫu thực tế)'
+  about11: 'Giá may gia công áo sơ mi chỉ cắt, may, ủi, lên rập theo tiêu chuẩn nước ngoài: 60k ( có thể tăng giảm lên xuống phụ thuộc vào mẫu thực tế)'
+  about12: 'Không như một số xưởng khác, xưởng may của chung toi luôn đặt chất lượng lên hàng đầu, bảo đảm chúng tôi sẽ làm khách hàng hài lòng nhất vì:'
+  about13: 'Chung toi không những may hàng giá cạnh tranh mà còn may hàng cực chất lượng và tỉ mỉ'
+  about14: 'Chăm chút từng đường kim mũi chỉ'
+  about15: 'Tư vấn kỹ lưỡng cho khách và báo giá chi tiết từng công đoạn để khách hàng nắm giá và hiểu rõ nhất'
+  about16: 'Ra mẫu cho khách duyệt trước khi may hàng loạt'
+  about17: 'Tuyệt đối không may hàng kém chất lượng'
+  about18: 'Kinh nghiệm nhiều năm gia công cho tay nghề cao cho May 10 va các thương hiệu nổi tiếng như Zara,H&M,Armani,Polo, …'
+  about19: 'Liên hệ: 401 707 0903 - Mr Que.'
+  fashion01: 'ÁO SƠ MI NAM'
+  fashion02: 'QUẦN ÂU NAM'
+  fashion03: 'VEST'
+  mechanical01: 'HỆ THỐNG LÀM MÁT'
+  mechanical02: 'MÁY MÓC NGÀNH MAY'
+  mechanical03: 'NHÓM CÁC LOẠI BÀN CÔNG NGHIỆP'
+  mechanical04: 'NHÓM CÁC LOẠI BĂNG CHUYỀN MAY'
+  mechanical05: 'NHÓM CÁC LOẠI THÙNG CHỨA HÀNG'
+  mechanical06: 'NHÓM GHẾ NGỒI MAY CÔNG NGHIỆP'
+  mechanical07: 'NHÓM GIÁ ĐỂ HÀNG CÔNG NGHIỆP'
+  mechanical08: 'NHÓM KỆ ĐỂ HÀNG CÔNG NGHIỆP'
+  mechanical09: 'NHÓM TỦ CHỨA HỒ SƠ TỦ GIÀY DÉP'

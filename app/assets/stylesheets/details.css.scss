@@ -1,0 +1,171 @@
+.btn-back{
+	button{
+		text-transform: uppercase;
+		background: #25a599;
+		color: white;
+		font-weight: 600;
+		font-size: 14px;
+		padding: 5px 20px;
+		i{
+			margin-right: 4px;
+			font-size: 20px;
+		}
+	}
+}
+.details{
+	margin-top: 20px;
+	h4{
+		color: #333333;
+		font-size: 25px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.details-content{
+		margin-top: 10px;
+		.details-image{
+			float: left;
+			width: 50%;
+			position: relative;
+			img{
+				width: 100%;
+				height: 360px; 
+				background: #9b1296;
+			}
+			h4{
+				position: absolute;
+				text-align: center;
+				color: white;
+				width: 100%;
+				font-size: 50px;
+				font-family: "Open Sans";
+				font-weight: 300;
+				margin-top: 150px;
+			}
+			p{
+				margin-top: 10px;
+				color: #828384;
+			}
+		}
+		.details-info{
+			overflow: hidden;
+			padding-left: 20px;
+			.price{
+				font-size: 45px;
+				color: #333;
+			}
+			.btn-take-this-course{
+				margin-top: 20px;
+				text-transform: uppercase;
+				padding: 5px 15px;
+				color: white;
+				background-color: #f44336;
+				box-shadow: 0px 1px 4px #a5a5a5;
+			}
+			.line{
+				width: 300px;
+				height: 3px; 
+				background: #d7d7d7;
+				margin-top: 5px;
+			}
+			.text-info{
+				label{
+					color: #a5a5a5;
+				}
+				.title-info{
+					color: #333;
+					font-weight: 600;
+					margin-right: 5px;
+				}
+			}
+			.btn-group{
+			  width: 100%;
+			  padding-bottom: 10px;
+			  margin-top: 10px;
+			  .icon-group{
+			    float: left;
+			    button{
+			      float: left;
+			      margin-right: 8px;
+			      width: 28px;
+			      height: 28px;
+			      border-radius: 50%;
+			      background-color: #e91d62;
+			      color: white;
+			      box-shadow: 0px 1px 4px #a5a5a5;
+			    }
+			    .heart{
+			      i{
+			        display: none;
+			      }
+			      .active{
+			        display: block;
+			      }
+			    }
+			    .btn-share{
+			      list-style-type: none;
+			      float: left;
+			      padding: 0px;
+			      margin-bottom: 0px;
+			      .share{
+			        button{
+			          background-color: #3f51b5;
+			        }
+			      }
+			      .btn-share-group{
+			        display: none;
+			        ul{
+			          list-style-type: none;
+			          padding: 0px;
+			          position: absolute;
+			          margin-top: -50px;
+			          background-color: #d7d7d7;
+			          border-radius: 25px;
+			          li{
+			            display: inline-block;
+			            .list-share{
+			              border-radius: 50%;
+			              background-color: transparent;
+			              color: #00ace3;
+			              margin-top: 5px;
+			            }
+			            &.caret{
+			              width: 0px;
+			              height: 0px;
+			              border-top: 8px solid #d7d7d7;
+			              border-left: 5px solid transparent;
+			              border-right: 5px solid transparent;
+			              position: absolute;
+			              bottom: -7px;
+			              left: 12px;
+			            }
+			          }
+			        }
+			        &.active{
+			          display: block;;
+			        }
+			      }
+			    }
+			  }
+			  .btn-View{
+			    float: right;
+			    text-align: right;
+			    button{
+			      color: white;
+			      font-weight: 600;
+			      text-transform: uppercase;
+			      background-color: #f44336;
+			      padding: 4px 10px;
+			      font-size: 12px;
+			      box-shadow: 0px 1px 4px #a5a5a5;
+			      img{
+			        margin-left: 10px;
+			        width: 18px;
+			        height: 15px;
+			      }
+			    }
+			  }
+			}
+		}
+	}
+}
+
