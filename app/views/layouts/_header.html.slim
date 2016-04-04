@@ -3,7 +3,7 @@
 .navbar
   = image_tag 'icon-bar.png'
 ul.menu-content
-  li class=("#{'active' if current_page?(root_path)}")
+  li.active class=("#{'active' if current_page?(root_path)}")
     = link_to root_path do
       = t :home
     end
