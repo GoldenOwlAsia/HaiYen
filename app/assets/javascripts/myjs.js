@@ -21,10 +21,24 @@ $('document').ready(function() {
     var numIMG = $('.image-bg > img').size();
 
 
+    $('.img-content').mousemove(function(e){
+      el = $(this);
+      var index = $(this).parents('.image-element-mechan').index() + 1;
+      $('.image-element-mechan:nth-child(' + index + ') > .img-content > .box').css({
+          'display':'block',
+          'left': e.pageX - el.offset().left,
+          'top': e.pageY - el.offset().top,
+      });
+    });
+     
+    $('.img-content').mouseleave(function(){
+      var index = $(this).parents('.image-element-mechan').index() + 1;
+      $('.image-element-mechan:nth-child(' + index + ') > .img-content > .box').css({
+          'display':'none'
+      });
+    })
 
-
-
-    FUNCTION
+    //FUNCTION
     function setAuto(){
       $('.image-bg > img:nth-child(' + current_slider + ')').animate({'margin-left':'-100%'}, 1000);
       $('.image-content:nth-child(' + current_slider + ')').animate({'opacity':'0'}, 0);

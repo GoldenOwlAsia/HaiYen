@@ -44,6 +44,9 @@
       width: 25%;
       height: 220px;
       margin-top: 50px;
+      .img-content{
+        position: relative;
+      }
     }
     .map{
       float: left;
@@ -108,4 +111,11 @@
     font-size: 15px;
     font-family: "Open Sans";
   }
+}
+.box{
+  background-color:red;
+  width:100px;
+  height:100px;
+  position:absolute;
+  display:none;
 }
