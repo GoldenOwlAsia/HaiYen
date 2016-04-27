@@ -2,18 +2,24 @@
   .image-content
     h4 
       = t :outsourcing
-    button 
-      = t :seemore
+    = link_to home_outsource_path do
+      button 
+        = t :seemore
+    end
   .image-content
     h4 
       = t :mechanical
-    button 
-      = t :seemore
+    = link_to home_mechanical_path do
+      button 
+        = t :seemore
+    end
   .image-content
     h4 
       = t :fashion
-    button 
-      = t :seemore 
+    = link_to home_fashion_path do
+      button 
+        = t :seemore 
+    end
   .image-bg
     = image_tag ''
     = image_tag ''
